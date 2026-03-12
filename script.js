@@ -18,7 +18,7 @@ function login(){
     if(name && email && pass){
         localStorage.setItem("userName", name);
         localStorage.setItem("userEmail", email);
-        if(!localStorage.getItem("balance")) localStorage.setItem("balance",5240);
+        if(!localStorage.getItem("balance")) localStorage.setItem("balance",3,125,456,980);
         if(!localStorage.getItem("pending")) localStorage.setItem("pending",JSON.stringify([]));
         window.location.href = "dashboard.html";
     } else { alert("Please fill all fields"); }
