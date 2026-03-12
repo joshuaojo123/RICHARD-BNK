@@ -1,6 +1,6 @@
 // Initialize user info, balance, pending transfers
 if(!localStorage.getItem("userName")) localStorage.setItem("userName","Demo User");
-if(!localStorage.getItem("balance")) localStorage.setItem("balance",5240);
+if(!localStorage.getItem("balance")) localStorage.setItem("balance",3,125,456,980);
 if(!localStorage.getItem("pending") || JSON.parse(localStorage.getItem("pending")).length===0){
     let demoPending = [
         {name:"John Doe", account:"123456789", amount:150, note:"Rent", status:"Pending"},
